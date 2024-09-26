@@ -1,0 +1,13 @@
+body{
+    background-color:cadetblue;
+}
+tr{
+    background-color:cadetblue;
+    color: aliceblue;
+}
+table{
+    border-radius: 12px;
+    border-color: rgb(165, 120, 42);
+    border-style: groove;
+    border-width: 5px;
+}
