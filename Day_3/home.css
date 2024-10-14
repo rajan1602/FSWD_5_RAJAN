@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.fcontainer{
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+.fitem{
+    background-color: aqua;
+    padding: 10px;
+    border: 2px solid red;
+}
+.navbar{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.news{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.main{
+        grid-row-start: 2;
+        grid-row-end: 4;
+}
+.footer{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.copyright{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}

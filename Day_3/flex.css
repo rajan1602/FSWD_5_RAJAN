@@ -5,10 +5,10 @@
 }
 .fcontainer{
   display: flex;
-  flex-direction:row-reverse;
+  flex-direction:row;
   height: 400px;
-  flex-wrap: wrap-reverse;
-  border: 5px solid black;
+  /* flex-wrap: wrap-reverse; */
+  border: 2px solid black;
   justify-content: space-between;
   align-items: center;
 } 
@@ -33,4 +33,10 @@
 }
 .item2{
     flex-shrink: 2;
+}
+@media only screen and(max-width:600px) {
+    .fcontainer{
+        flex-direction: column;
+        text-align:center;
+    }
 }
