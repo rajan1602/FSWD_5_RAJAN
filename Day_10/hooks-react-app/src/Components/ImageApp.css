@@ -1,0 +1,23 @@
+.disp{
+    display: flex;
+    flex-direction: column;
+    gap: 200px;
+    background-color: antiquewhite;
+}
+.panel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    text-align: center;
+}
+button{
+    background-color: aqua;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
